@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabeer Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        header{
+            width: 100%;
+           position:sticky;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: rgb(18, 18, 62);
+            height: 80px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            list-style: none;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li {
+            margin: 0 23px;
+            list-style: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(255, 0, 204);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0px;
+        }
+
+        .firstSection > div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0px;
+        }
+
+        .rightSection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: purple;
+        }
+        .textGray{
+            color:gray
+        }
+        #element{
+            color:rgb(203, 110, 39);
+        }
+       
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height:50vh;
+        }
+        main hr{
+            color: aqua;
+            margin: 40px 40px;
+        }
+        .secondSection h1{
+            font-size:2rem;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+           background-color: white;
+            margin: 0px auto;
+        }
+
+        .image-top{
+            width:23px;
+            position:relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .thirdSection{
+            height: 60vh;
+        }
+        .thirdSection .MeAbout h1{
+            margin: 0px 9vh ;
+        }
+        #G{
+            margin: 0px 8vh;
+        }
+        .container .box{
+            height: 40vh;
+            width: 23%;
+           background-size: contain;
+            margin: 5vh;
+            flex-wrap: wrap;   
+                
+        }
+        .container .box .Me{
+          height: 40vh;
+          width: auto;
+        
+        }
+       .thirdSection .container{
+            display: flex;
+             margin: auto;
+            align-items: center;
+        }
+     
+        #red{
+            color: red;
+            
+        }
+
+        .fourthSection{
+            height: 50vh;
+        }
+        .fourthSection h1{
+            margin: 30px;
+        }
+
+        .footer{
+            display: flex;
+            background-color: rgb(187, 43, 132);
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+            color: rgb(255, 255, 255);
+            background: rgb(0, 0, 0);
+            padding: 7px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        input{
+              width: 50%;
+              height: 4vh;
+              padding: 4px;
+              margin: 2vh;
+        }
+        .Outsider{
+            margin:5vw ;
+        }
+        #i1{
+            width: 40%;
+        }
+        #i2{
+            width: 30%;
+
+        }
+        #i4{
+            width: 60%;
+        }
+        .contact .gray{
+            margin: 0px 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Kabeer's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Hobbies">Hobbies</a></li>
+                    <li><a href="#Contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Home" class="firstSection">
+            <div class="leftSection">
+                Hi, I am <span class="purple">Kabeer</span>
+                <div>and I am a passionate</div>
+                <div>Web developer and a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://github.com/Kabeer021">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Kabeer021">Github</a></button>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+<hr>
+        <section id="About" class="secondSection">
+        <span class="textGray">What I have done so far</span>
+        <h1>About</h1>
+
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="dev.png" alt="">
+                <div class="vertical-title">
+                    HTMl CSS developer
+                </div>
+                <div class="vertical-desc">
+                    Have built a clone of flipkart using HTML and CSS
+                    <button class="btn"><a href="https://github.com/Kabeer021/My-project-Flipkart-">Download project</a></button>
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="Javascript.png" alt="">
+                 <div class="vertical-title">
+                    Javascript developer
+                </div>
+                <div class="vertical-desc">
+                    Have built a portfolio project using javascript
+                </div>
+            </div>
+            <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        HTMl CSS developer
+                    </div>
+                    <div class="vertical-desc">
+                        Have built a clone of flipkart using HTML and CSS
+                    </div>
+            </div>
+                
+            <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Still learing java and have not done any project on java so far
+                    </div>
+        </div>
+
+        </section>
+    <hr>
+
+         <div id="Hobbies" class="thirdSection">
+             <div class="MeAbout">
+                <span id="G" class="gray">Things that I like to do</span>
+                <h1>Hobbies</h1>
+                <div class="container">
+                    <div class="box">
+                        <img class="Me" src="photography.jpg" alt="">
+                    <div>
+                        <span id="red">Photography</span>
+                    </div>
+                    </div>
+                    <div class="box">
+                       <img class="Me" src="basketBall.jpg" alt="">
+                       <div>
+                        <span id="red">Basketball</span>
+                       </div>
+                    </div>
+                    <div class="box">
+                        <img class="Me" src="travel.jpg " alt="">
+                        <div>
+                            <span id="red">Traveling</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="Me" src="yoga.jpg" alt="">
+                        <div>
+                            <span id="red">Yoga</span>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </div>
+      
+    <hr>
+
+        <div id="Contact" class="fourthSection">
+            <div class="contact">
+              <h1>Contact me</h1>
+              <span class="gray">kalashkabeer21@gmail.com</span>
+            </div>
+           <div class="Outsider">
+            <input id="i1" type="Name" placeholder="Enter your name">
+            <input id="i2" type="Email" placeholder="Enter your Mobile number">
+            <input id="i3" type="Email" placeholder="Enter your email">
+            <input id="i4" type="Email" placeholder="Enter your address">
+           </div>
+
+        </div>
+
+    <hr>
+    </main>
+
+    <footer>
+             <div class="footer">
+                <div class="footerFirst">
+                    copyright kabeer &copy; 
+                </div>
+                <div class="footerSecond"></div>
+                <div class="footerThird"></div>
+                <div class="footerFourth"></div>
+             </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web designer','Java Developer','Video editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
